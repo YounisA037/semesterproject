@@ -1,0 +1,353 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(187, 189, 191);
+}
+#h{
+  margin-left: 20px;
+}
+nav{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+.logo{
+  color: white;
+}
+ul{
+  display: flex;
+  
+  }
+  ul li{
+    list-style: none;
+
+  }
+  ul li a{
+    text-decoration: none;
+    margin-inline: 20px;
+    color: aliceblue;
+  }
+ ul li a:hover,ul li a.active{
+  color: rgb(20, 101, 101);
+  font-weight: 800px;
+ }
+ .icon{
+  width: 40px;
+  align-items: center;
+  display: none;
+  color: aliceblue;
+ font-size: 30px;
+ }
+ .main{
+display: flex;
+justify-content: center;
+margin-top: 155px;
+flex-wrap: wrap;
+ }
+ .maintext h1{
+  color: rgb(8, 60, 60);
+  font-size: 55px;
+ }
+ .maintext h2{
+  font-size: 33px;
+ }
+ .maintext button{
+ width: 120px;
+ height: 33px;
+ background-color: rgb(11, 114, 114);
+ font-size: 20px;
+ color:white;
+ }
+ .maintext button:hover{
+  border: 2px aqua solid;
+  background-color: antiquewhite;
+  color:rgb(13, 17, 17);
+ }
+
+ .card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+ }
+ .card .crd{
+  margin-inline: 22px;
+  text-align: center;
+ }
+ .crd i{
+  color: rgb(252, 164, 2);
+  margin-top: 3px;
+ }
+ .crd h3{
+  margin-top: 3px;
+  margin-bottom: 3px;
+ }
+ .crd img{
+  width: 340px;
+  height: 400px;
+ }
+ .head{
+  padding: 55px;
+ text-align: center;
+ }
+ .head span{
+  color: orangered;
+ }
+ .review{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+ }
+ .review .rcard{
+  width: 260px;
+  height: 270px;
+  background-color:#efebeb;
+  text-align: center;
+  padding: 13px;
+  margin-left: 30px;
+ }
+ .rcard img{
+  width: 42%;
+  height: 38%;
+  border-radius: 50%;
+ }
+ .rcard:hover{
+  background-color: gray;
+  transition: 1s ease;
+ }
+ .rcard button{
+  width: 90px;
+  height: 30px;
+  background-color: rgb(13, 148, 148);
+  color: rgb(254, 251, 251);
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+ }
+ .blog{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .blog .blogcard{
+  width: 300px;
+  text-align: center;
+ background-color: rgb(255, 253, 253);
+ margin-inline: 22px;
+ border-radius: 5px;
+ }
+ .blogcard img{
+  width: 100%;
+  border-radius: 5px;
+ }
+ .blogcard a{
+  padding:4px 20px ;
+  background-color: aqua;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+ }
+ .blogcard a:hover{
+  background-color: #2c959e;
+  color: white;
+ }
+ .blogcard:hover{
+  color: white;
+ }
+ .blogcard:hover{
+ transition: 1s ease;
+ background-color: #363030;
+ }
+ .connect{
+  text-align: center;
+ }
+ .btn:hover{
+ background-color: rgb(44, 31, 31);
+ color: white;
+ }
+ .connect input{
+  width: 340px;
+  padding: 8px;
+  font-size: 18px;
+  background-color: transparent;
+  margin-top: 11px;
+  border: none;
+  outline-color:orange;
+  /* border: 2px black solid; */
+ }
+ .connect button{
+  width: 130px;
+  height: 36px;
+  color: aqua;
+  background-color: white;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+ }
+ .footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  padding: 44px;
+  margin-top: 33px;
+ }
+ /* items page css */
+ .itempage{
+  display: none;
+  /* display: flex; */
+  margin-top: 33px;
+  margin-left: 25px;
+ }
+ .itempage img{
+  width: 300px;
+  height: 340px;
+ }
+.itempage .itemtext{
+margin-left: 30px;
+}
+.itempage .itemtext h3{
+  color: rgb(6, 97, 97);
+}
+.itempage .itemtext input{
+  width: 50px;
+  padding: 3px;
+}
+.itempage .itemtext a{
+  padding-right: 5px;
+  margin-left: 5px;
+  padding-left: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: rgb(214, 62, 7);
+  border: 2px solid black;
+  color: white;
+  border: none;
+  }
+  .itempage .itemtext h2{
+    color: rgb(12, 174, 50);
+  }
+  /* buypppage css */
+  .buypage{
+    display: none;
+    justify-content: center;
+    width: 30%;
+    background-color: #efebeb;
+    padding: 22px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: -75px; 
+    transform: translate(-50%,40%); 
+  }
+  .buypage input{
+    width: 95%;
+    padding: 7px;
+    border: 2px black solid;
+  }
+  .buytext button{
+    width: 120px;
+    height: 34px;
+    color: white;
+    background-color: aqua;
+    font-size: 20px;
+    border: none;
+    margin-left: 40%;
+  }
+  .buytext select{
+    padding:3px;
+    font-size: 18px;
+    border: 2px solid black;
+  }
+  .buypage .cross{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 3px;
+    background-color: #afa3a3;
+    border-radius: 4px;
+   
+  }
+  .add{
+    width: 50px;
+    height: 30px;
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    color:white;
+    background-color: orangered;
+    font-size: 23px;
+  }
+  .sub{
+    width: 50px;
+    height: 30px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: white;
+    background-color: orangered;
+    font-size: 23px;
+  }
+
+ @media only screen and (max-width:600px) {
+  nav ul{
+    display: none;
+  }
+  .icon{
+  display: flex;
+  cursor: pointer;
+  }
+  .showdata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    
+  background-color: rgb(165, 160, 160);
+  width: 100%;
+  height: 240px;
+  gap: 20px;
+  text-align: center;
+
+  }
+  .maintext h1{
+    font-size: 40px;
+  }
+  .maintext h2{
+    font-size: 24px;
+  }
+ .crd img{
+  width: 71%;
+  
+ }
+ .connect input{
+  width: 65%;
+ }
+}
+@media only screen and (max-width:400px){
+  .main img{
+    width: 95%;
+  }
+}
+ @media only screen and (max-width:1000px){
+  .main{
+  display: block;
+  text-align: center;
+  }
+  .main img{
+    margin-top: 20px;
+  }
+ }

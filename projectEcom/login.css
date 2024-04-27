@@ -1,0 +1,64 @@
+body{
+ background-color: rgb(61, 43, 43);
+ width: 100vw;
+ height: 100vh;
+}
+.container{
+  width: 350px;
+  height: 400px;
+ margin: auto;
+margin-top: 250px; 
+ }
+ #username{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  /* border: 2px solid black; */
+  width: 80%;
+  align-items: center;
+  padding-left: 10px;
+  margin-left:20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+ }
+ 
+ #pass{
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  /* border: 2px solid black; */
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 20px;
+  padding-left: 10px;
+ }
+ .btn{
+font-size: 20px;
+width: 100%;
+border: 2px black solid;
+border-radius: 10px;
+background-color: orangered;
+ }
+ .btn:hover{
+  background-color:rgb(0, 0, 0) ;
+  color: white;
+ }
+ a{
+  margin-left: 60px;
+ }
+ h1{
+  margin-left: 110px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+ }
+ label{
+  margin-left: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-style: italics;
+  color: rgb(228, 225, 218);
+ }
+.r{
+  color: rgb(105, 42, 213);
+}
